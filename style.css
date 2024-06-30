@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    padding-top: 2vw;
+    background-color: #1565C0;
+    font-family: "Roboto Condensed", sans-serif;
+    color: yellow;
+}
+body{
+    background-color: #E3F2FD;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.box{
+    background-color: #2C2C2C;
+    padding: 120px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.time{
+    font-size: 70px;
+    padding-bottom: 150px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+}
+.mode{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.mode button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border: solid black;
+    font-family:"Roboto Condensed", sans-serif;
+
+} 
+
+
+#start{
+    background-color: #008080;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 37%;
+}
+#pause{
+    background-color: #008080;
+    color: white;
+    position: absolute;
+    top: 55%;
+}
+#reset{
+    background-color:#008080;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 56%;
+}
+#lap{
+    background-color: #008080;
+    color: white;
+    position: absolute;
+    bottom: 190px;
+    left: 40%;
+}
+#resetlap{
+    background-color: #008080;
+    color: white;
+    position: absolute;
+    bottom: 190px;
+    left: 50%;
+}
+
+.laps{
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 690px;
+    font-style: "Roboto Condensed", sans-serif;
+}
